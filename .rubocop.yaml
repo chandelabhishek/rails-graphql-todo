@@ -1,0 +1,14 @@
+require:
+  - rubocop-rspec
+
+AllCops:
+  Exclude:
+    - bin/*
+    - spec/**/*
+
+Metrics/BlockLength:
+  Exclude:
+    - 'Rakefile'
+    - '**/*.rake'
+    - 'spec/**/*.rb'
+    - '**/*.gemspec'
